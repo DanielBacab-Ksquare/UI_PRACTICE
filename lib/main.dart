@@ -12,6 +12,7 @@ import 'package:ui_practice/screens/practice_10.dart';
 import 'package:ui_practice/screens/practice_11.dart';
 import 'package:ui_practice/screens/practice_12.dart';
 import 'package:ui_practice/screens/practice_13.dart';
+import 'package:ui_practice/screens/practice_14.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Practice13(),
+      home: const Practice14(),
     );
   }
 }
