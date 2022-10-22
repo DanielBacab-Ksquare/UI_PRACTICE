@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-//import 'package:flutter/src/widgets/container.dart';
-//import 'package:flutter/src/widgets/framework.dart';
 
 class Practice1 extends StatelessWidget {
   const Practice1({super.key});
