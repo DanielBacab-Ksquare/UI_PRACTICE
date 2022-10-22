@@ -21,3 +21,9 @@ Daniel Bacab - UI Practice
 ![Practice 9](./screenshots/practice_9.png)
 ## Practice 10
 ![Practice 10](./screenshots/practice_10.png)
+## Practice 11
+![Practice 11](./screenshots/practice_11.png)
+## Practice 12
+![Practice 12](./screenshots/practice_12.png)
+## Practice 13
+![Practice 13](./screenshots/practice_13.png)
