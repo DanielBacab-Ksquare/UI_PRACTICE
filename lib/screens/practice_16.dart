@@ -68,7 +68,8 @@ class Practice16 extends StatelessWidget {
             Row(
               mainAxisSize: MainAxisSize.min,
               children: [
-                IconButton(
+                Container(child: Row(children: [
+                  IconButton(
                     onPressed: () {},
                     iconSize: 20,
                     icon: const Icon(
@@ -77,10 +78,13 @@ class Practice16 extends StatelessWidget {
                 const Text(
                   "Like",
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
-                ),
+                )
+                ],))
+                ,
                 const SizedBox(
                   width: 10,
                 ),
+                Container(child: Row(children: [
                 IconButton(
                     onPressed: () {},
                     iconSize: 20,
@@ -90,10 +94,14 @@ class Practice16 extends StatelessWidget {
                 const Text(
                   "Comment",
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
-                ),
+                )
+                ],))
+                ,
+                
                 const SizedBox(
                   width: 10,
                 ),
+                Container(child: Row(children: [
                 IconButton(
                     onPressed: () {},
                     iconSize: 20,
@@ -104,6 +112,7 @@ class Practice16 extends StatelessWidget {
                   "Share",
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
                 ),
+                ],))
               ],
             )
           ],
