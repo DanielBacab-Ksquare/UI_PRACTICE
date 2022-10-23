@@ -30,6 +30,8 @@ class Practice12 extends StatelessWidget {
           style: TextStyle(color: Colors.black),
         ),
       ]),
-    )));
+    )
+    )
+    );
   }
 }
