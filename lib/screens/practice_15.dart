@@ -45,7 +45,7 @@ class Practice15 extends StatelessWidget {
                   height: 25,
                 ),
                 const Text(
-                  "The brazo de reina (literally queen arm), It is a traditional dish from Yucatan, Mexico that does not use meat. Its ingredients are corn dough mixed with chaya leaves and salt, boiled eggs (also known as hard), wrapped in banana leaves. They are served with a tomato sauce (with onion and a habanero chili) and also ground pumpkin seeds. It is usually consumed a lot during Lent, a period of the year in which, according to the Catholic religion, red meat should not be consumed.",
+                  "The brazo de reina (literally queen arm) is a traditional dish from Yucatan, Mexico that does not use meat. Its ingredients are corn dough mixed with chaya leaves and salt, boiled eggs (also known as hard), wrapped in banana leaves. They are served with a tomato sauce (with onion and a habanero chili) and also ground pumpkin seeds. It is usually consumed a lot during Lent, a period of the year in which, according to the Catholic religion, red meat should not be consumed.",
                   textAlign: TextAlign.left,
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500, color: Color(0xff565656)),
                 ),
