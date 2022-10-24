@@ -20,6 +20,16 @@ class Practice17 extends StatelessWidget {
                         fit: BoxFit.cover),
                   ),
                   Align(
+                    alignment: Alignment.topRight,
+                    child: Container(
+                      margin: const EdgeInsets.all(10),
+                      child: const Icon(
+                      Icons.favorite_border,
+                      size: 30,
+                    ),
+                    )
+                  ),
+                  Align(
                     alignment: Alignment.bottomCenter,
                     child: Container(
                       height: 80,
