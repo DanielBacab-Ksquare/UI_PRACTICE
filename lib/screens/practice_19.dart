@@ -17,7 +17,7 @@ class _MyWidgetState extends State<Practice19> {
   TextEditingController _passwordCtrl = TextEditingController();
   bool _isTermsAccepted = false;
   
-  get genderVal => null;
+  String genderVal = "male";
 
   @override
   Widget build(BuildContext context) {
@@ -97,13 +97,15 @@ class _MyWidgetState extends State<Practice19> {
               const SizedBox(
                 height: 10,
               ),
+              //Radio Buttons
               Row(
                 children: [
                   Radio(
-                    value: _isTermsAccepted,
-                    onChanged: (genderVal) {
+                    activeColor: Colors.black,
+                    value: "male",
+                    onChanged: (val) {
                       setState(() {
-                        genderVal = genderVal!;
+                        genderVal = val!;
                       });
                     },
                     groupValue: genderVal,
@@ -119,10 +121,11 @@ class _MyWidgetState extends State<Practice19> {
               Row(
                 children: [
                   Radio(
-                    value: _isTermsAccepted,
-                    onChanged: (genderVal) {
+                    activeColor: Colors.black,
+                    value: "female",
+                    onChanged: (val) {
                       setState(() {
-                        genderVal = genderVal!;
+                        genderVal = val!;
                       });
                     },
                     groupValue: genderVal,
@@ -140,7 +143,8 @@ class _MyWidgetState extends State<Practice19> {
                 children: [
                   Checkbox(
                       value: _isTermsAccepted,
-                      checkColor: Colors.red,
+                      checkColor: Colors.white,
+                      activeColor: Colors.black,
                       onChanged: (val) {
                         setState(() {
                           _isTermsAccepted = val!;
